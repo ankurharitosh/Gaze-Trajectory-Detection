@@ -1,0 +1,3 @@
+# Gaze-Trajectory-Detection
+This project aims at Coffee shops. It will be installed at the Cashier machine to recognize if a person is going to order. Detection of a person approaching and looking at the camera by using OpenCV and Dlib. I used Dlib 68 points face landmarks to calculate the probabilities of if a person is looking in front, left, right, up or down. Then, I calculated if a person is moving towards the camera or away from the camera. I did this by detecting the face using Voila Jones algorithm and calculated the area of the detected face. Taking an average of 10 frames, if the area is increasing, then the person is approaching the camera. Hence, combined Gaze & Trajectory Detection into one system.
+
